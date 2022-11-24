@@ -59,6 +59,35 @@ font-size: clamp(1.25rem, 0rem + 6.25vw, 7.5rem);
     }
 }
 
+.promo {
+    background-size: cover;
+    min-height: 100vh;
+    position: relative;
+    color: white;
+} 
+
+.color-overlay {
+    position: absolute;
+    background-color: rgba(0, 0, 0, 0.4);
+    height: 100%;
+    width: 100%;
+}
+
+.singleCol {
+    max-width: 900px;
+    margin: 0 auto;
+}
+  
+@media (max-width: 768px) {
+    .promo {
+        min-height: 60vh;
+    }
+    h1 {
+        font-size: 1.25rem;
+font-size: clamp(1.25rem, 0rem + 6.25vw, 7.5rem);
+    }
+}
+
 .title {
     color: rgb(255, 101, 195);
 }
