@@ -1,0 +1,247 @@
+body {
+    background-color: black;
+    color: white;
+}
+
+.nav {
+    color: white;
+}
+
+.navbar {
+background-color: black;
+}
+
+
+.navbar .nav-link {
+    font-family: 'Heebo', sans-serif;   
+     font-size: 0.9rem;
+        color: white;
+        font-weight: 400;
+        letter-spacing: 1px;
+    
+    }
+    
+    .navbar .nav-link.active {
+        color: rgb(255, 101, 195);
+    }
+    
+    .navbar-nav .nav-link:hover {
+        color: rgb(255, 101, 195);
+    
+    }
+
+.masthead {
+    background-size: cover;
+    min-height: 100vh;
+    position: relative;
+    color: white;
+} 
+
+.color-overlay {
+    position: absolute;
+    background-color: rgba(0, 0, 0, 0.4);
+    height: 100%;
+    width: 100%;
+}
+
+.singleCol {
+    max-width: 900px;
+    margin: 0 auto;
+}
+  
+@media (max-width: 768px) {
+    .masthead {
+        min-height: 50vh;
+    }
+    h1 {
+        font-size: 1.25rem;
+font-size: clamp(1.25rem, 0rem + 6.25vw, 7.5rem);
+    }
+}
+
+.title {
+    color: rgb(255, 101, 195);
+}
+
+h1 {
+  font-size: 5rem;
+  text-transform: uppercase;
+  font-weight: 500;
+  color: rgb(255, 101, 195);
+}
+
+.subtitle { 
+    font-size: 70px;
+    font-family: 'DM Sans', sans-serif;
+    letter-spacing: 1.5px;
+    line-height: 84px;
+    font-weight: 500;
+}
+
+.offering { 
+    font-size: 74px;
+    font-family: 'DM Sans', sans-serif;
+    color: rgb(255, 101, 195);
+    letter-spacing: 1.5px;
+    line-height: 84px;
+    font-weight: 600;
+}
+
+.intro {
+    font-size: 1.8rem;
+    font-size: clamp(1.125rem, 2vw + 1rem, 1.75rem);
+    font-family: 'Poppins', sans-serif;
+    line-height: 45px;
+}
+h2 {
+    font-size: 5rem;
+    font-size: clamp(1.125rem, 2vw + 1rem, 2.5rem);
+    font-family: 'Poppins', sans-serif;
+    line-height: 35px;
+    letter-spacing: 1px;
+    color: rgb(255, 101, 195);
+    font-weight: 600;
+}
+
+h3 {
+    font-size: 1.8rem;
+    font-size: clamp(1.125rem, 2vw + 1rem, 1.75rem);
+    font-family: 'Poppins', sans-serif;
+    line-height: 40px;
+    color: white;
+    font-weight: 700;
+}
+
+h4 {
+    font-size: 1.5rem;
+    font-family: 'Poppins', sans-serif;
+    line-height: 32px;
+    color: white;
+    font-weight: 500;
+}
+
+h4 {
+    font-size: 1.3rem;
+    font-family: 'Poppins', sans-serif;
+    line-height: 30px;
+    color: white;
+    font-weight: 500;
+}
+p {
+    font-size: 1rem;
+    font-family: 'Heebo', sans-serif;
+}
+
+.lead {
+    font-size: 1.1rem;
+    font-family: 'Heebo', sans-serif;
+}
+
+.card {
+    border: none;
+}
+
+.card-body {
+    background-color: black;
+    color: white;
+}
+
+.card-title {
+    font-size: 1.8rem;
+    font-family: 'Poppins', sans-serif;
+    line-height: 42px;
+}
+
+.btn {
+    font-family: 'Poppins', sans-serif; 
+}
+
+.btn-mod.btn-large {
+    height: auto;
+    padding: 13px 52px;
+    font-size: 15px;
+}
+
+.btn-mod.btn-border {
+    color: #ffffff;
+    border: 2px solid rgb(255, 101, 195);
+
+    background: transparent;
+}
+
+.btn-mod.btn-border:hover, .btn-mod.btn-border:focus{
+    color: #fff;
+    border-color: transparent;
+    background: rgb(255, 101, 195);
+}
+
+.btn-mod:hover, .btn-mod:focus, a.btn-mod:hover, a.btn-mod:focus {
+    font-weight: 400;
+    color: rgba(255,255,255, .85);
+    background: rgb(255, 101, 195);
+    text-decoration: none;
+    outline: none;
+    border-color: transparent;
+    -webkit-box-shadow: none;
+    box-shadow: none;
+}
+
+.news {
+    background-size: cover;
+    min-height: 100vh;
+    position: relative;
+    color: white;
+} 
+
+.color-overlay {
+    position: absolute;
+    background-color: rgba(0, 0, 0, 0.4);
+    height: 100%;
+    width: 100%;
+}
+
+.singleCol {
+    max-width: 900px;
+    margin: 0 auto;
+}
+  
+@media (max-width: 768px) {
+    .promo {
+        min-height: 60vh;
+    }
+    h1 {
+        font-size: 1.25rem;
+font-size: clamp(1.25rem, 0rem + 6.25vw, 7.5rem);
+    }
+}
+.tagline {
+    font-size: 50px;
+    line-height: 50px;
+    font-family: 'DM Sans', sans-serif;
+}
+.subscription {
+    background-size: cover;
+    min-height: 75vh;
+    position: relative;
+    color: white;
+} 
+
+.nav .nav-link {
+    font-family: 'Heebo', sans-serif;   
+     font-size: 0.9rem;
+        color: white;
+        font-weight: 400;
+        letter-spacing: 1px;
+    
+    }
+
+    .nav .nav-link.active {
+        color: rgb(255, 101, 195);
+    }
+    
+    .nav .nav-link:hover {
+        color: rgb(255, 101, 195);
+    
+    }
+
+    
